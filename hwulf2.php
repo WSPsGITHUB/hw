@@ -27,4 +27,4 @@ foreach($upload['error'] as $k=>$v ){
 <a href="hwulf1.php">上一頁(回上傳區)</a>
 <hr>
 <a href="hwulf3.php">下一頁(至長輩圖區)</a>
-<!-- from lab46.php -->
+
