@@ -24,4 +24,3 @@
    Imagedestroy($img);
 
 ?>
-<!-- from lab47.php -->
