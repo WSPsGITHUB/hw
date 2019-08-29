@@ -8,4 +8,3 @@
 
 </form>
 
-<!--from lab45.php -->
