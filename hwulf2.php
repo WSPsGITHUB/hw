@@ -14,9 +14,9 @@ foreach($upload['error'] as $k=>$v ){
     if ($v ==0){
         if (move_uploaded_file( $upload['tmp_name'][$k],
          "upload/{$upload['name'][$k]}")  ){
-           echo "{$k} : 成功上傳<br>";
+           echo "{$k} : 上傳成功<br>";
         }else{
-           echo "{$k} : 失敗上傳<br>";
+           echo "{$k} : 上傳失敗<br>";
         }
     }else{  echo "{$k} : 請上傳資料<br>";     }
 }
